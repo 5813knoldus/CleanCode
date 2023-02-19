@@ -46,13 +46,14 @@ public class CleanCode
 	
 	public static void printIndex(int sortedArray[],int tempArray[])
 	{
+		System.out.println(" Output :  ");
 	    for(int index1 =0 ; index1<sortedArray.length; index1++){
                     
                     for(int index2 = 0; index2<sortedArray.length;index2++){
                         
                         if(tempArray[index1] == sortedArray[index2])
                         {
-                            System.out.print(" "+index2);
+                            System.out.print("  " +index2);
                             break;
                         }
                     }
