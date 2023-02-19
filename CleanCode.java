@@ -3,6 +3,7 @@ public class CleanCode
 	public static void main(String[] args) 
 	{
         
+         System.out.println(" Updated CleanCode file.   ");
         int array[] = {5,10,50,40,20};
         
         int tempArray[] ={5,10,50,40,20};
