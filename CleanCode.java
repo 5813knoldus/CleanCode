@@ -2,9 +2,6 @@ public class CleanCode
 {
 	public static void main(String[] args) 
 	{
-        System.out.println("This file is updated again1 ");
-	System.out.println("This file is updated again2 ");
-         System.out.println("clean code file is updated and trigger by git SCM   ");
         int array[] = {5,10,50,40,20};
         
         int tempArray[] ={5,10,50,40,20};
@@ -48,8 +45,9 @@ public class CleanCode
 	
 	public static void printIndex(int sortedArray[],int tempArray[])
 	{
-	    System.out.println(" Output the  of Clean Code assignment :  ");
-	    for(int index1 =0 ; index1<sortedArray.length; index1++){
+	        System.out.println(" Output the  of Clean Code assignment :  ");
+	    
+		for(int index1 =0 ; index1<sortedArray.length; index1++){
                     
                     for(int index2 = 0; index2<sortedArray.length;index2++){
                         
