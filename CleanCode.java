@@ -2,7 +2,7 @@ public class CleanCode
 {
 	public static void main(String[] args) 
 	{
-        
+        System.out.println("This file is updated again1 ");
          System.out.println("clean code file is updated and trigger by git SCM   ");
         int array[] = {5,10,50,40,20};
         
