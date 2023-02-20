@@ -47,7 +47,7 @@ public class CleanCode
 	
 	public static void printIndex(int sortedArray[],int tempArray[])
 	{
-	    System.out.println(" Output of Clean Code assignment :  ");
+	    System.out.println(" Output the  of Clean Code assignment :  ");
 	    for(int index1 =0 ; index1<sortedArray.length; index1++){
                     
                     for(int index2 = 0; index2<sortedArray.length;index2++){
